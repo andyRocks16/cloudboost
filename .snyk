@@ -1,0 +1,57 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.8.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:concat-stream:20160901':
+    - googleapis > gapitoken > jws > base64url > concat-stream:
+        reason: None given
+        expires: '2017-12-22T05:24:12.354Z'
+    - googleapis > gapitoken > jws > base64url > concat-stream:
+        reason: None given
+        expires: '2017-12-22T05:24:12.355Z'
+  'npm:debug:20170905':
+    - socket.io-redis > socket.io-adapter > socket.io-parser > debug:
+        reason: None given
+        expires: '2017-12-22T05:24:12.354Z'
+    - socket.io-redis > socket.io-adapter > socket.io-parser > debug:
+        reason: None given
+        expires: '2017-12-22T05:24:12.355Z'
+  'npm:qs:20170213':
+    - winston-bishop-slack > superagent > qs:
+        reason: None given
+        expires: '2017-12-22T05:24:12.354Z'
+    - winston-bishop-slack > winston > request > qs:
+        reason: None given
+        expires: '2017-12-22T05:24:12.354Z'
+    - winston-bishop-slack > superagent > qs:
+        reason: None given
+        expires: '2017-12-22T05:24:12.355Z'
+    - winston-bishop-slack > winston > request > qs:
+        reason: None given
+        expires: '2017-12-22T05:24:12.355Z'
+  'npm:tunnel-agent:20170305':
+    - winston-loggly > loggly > request > tunnel-agent:
+        reason: None given
+        expires: '2017-12-22T05:24:12.354Z'
+    - winston-bishop-slack > winston > request > tunnel-agent:
+        reason: None given
+        expires: '2017-12-22T05:24:12.354Z'
+    - winston-loggly > loggly > request > tunnel-agent:
+        reason: None given
+        expires: '2017-12-22T05:24:12.355Z'
+    - winston-bishop-slack > winston > request > tunnel-agent:
+        reason: None given
+        expires: '2017-12-22T05:24:12.355Z'
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - nodemailer-mailgun-transport > mailgun-js > debug > ms:
+        patched: '2017-11-22T05:24:12.361Z'
+    - socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2017-11-22T05:24:12.361Z'
+  'npm:qs:20140806-1':
+    - winston-bishop-slack > winston > request > qs:
+        patched: '2017-11-22T05:24:12.361Z'
+  'npm:request:20160119':
+    - winston-bishop-slack > winston > request:
+        patched: '2017-11-22T05:24:12.361Z'
