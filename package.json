@@ -45,7 +45,7 @@
     "mongodb": "^2.1.11",
     "mongoose": "^4.4.10",
     "multer": "^1.0.0",
-    "node-gcm": "^0.14.0",
+    "node-gcm": "^1.0.0",
     "node-linkedin": "^0.5.3",
     "node-twitter-api": "^1.7.1",
     "node-uuid": "^1.4.7",
@@ -68,7 +68,7 @@
     "winston-bishop-slack": "^0.2.1",
     "winston-loggly": "^1.1.0",
     "wns": "^0.5.3",
-    "snyk": "^1.49.4"
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "eslint": "^3.16.1",
@@ -76,7 +76,8 @@
   },
   "scripts": {
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "snyk": true
 }

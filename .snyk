@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.8.0
+version: v1.12.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:concat-stream:20160901':
@@ -55,3 +55,12 @@ patch:
   'npm:request:20160119':
     - winston-bishop-slack > winston > request:
         patched: '2017-11-22T05:24:12.361Z'
+  'npm:hoek:20180212':
+    - winston-loggly > loggly > request > hawk > hoek:
+        patched: '2018-06-19T06:34:24.258Z'
+    - winston-loggly > loggly > request > hawk > boom > hoek:
+        patched: '2018-06-19T06:34:24.258Z'
+    - winston-loggly > loggly > request > hawk > sntp > hoek:
+        patched: '2018-06-19T06:34:24.258Z'
+    - winston-loggly > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T06:34:24.258Z'
