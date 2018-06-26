@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.8.0
+version: v1.12.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:concat-stream:20160901':
@@ -55,3 +55,15 @@ patch:
   'npm:request:20160119':
     - winston-bishop-slack > winston > request:
         patched: '2017-11-22T05:24:12.361Z'
+  'npm:mime:20170907':
+    - winston-bishop-slack > superagent > mime:
+        patched: '2018-06-26T06:33:11.446Z'
+    - winston-bishop-slack > superagent > form-data > mime:
+        patched: '2018-06-26T06:33:11.446Z'
+    - winston-bishop-slack > winston > request > mime:
+        patched: '2018-06-26T06:33:11.446Z'
+    - winston-bishop-slack > winston > request > form-data > mime:
+        patched: '2018-06-26T06:33:11.446Z'
+  'npm:tunnel-agent:20170305':
+    - winston-loggly > loggly > request > tunnel-agent:
+        patched: '2018-06-26T06:33:11.446Z'
