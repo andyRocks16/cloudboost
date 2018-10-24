@@ -52,7 +52,7 @@
     "nodemailer": "^2.4.1",
     "nodemailer-mailgun-transport": "^1.0.2",
     "oauth": "^0.9.14",
-    "octonode": "^0.7.5",
+    "octonode": "^0.9.3",
     "path": "^0.12.7",
     "q": "^2.0.3",
     "request": "^2.55.0",
@@ -68,7 +68,7 @@
     "winston-bishop-slack": "^0.2.1",
     "winston-loggly": "^1.1.0",
     "wns": "^0.5.3",
-    "snyk": "^1.49.4"
+    "snyk": "^1.104.2"
   },
   "devDependencies": {
     "eslint": "^3.16.1",
@@ -76,7 +76,8 @@
   },
   "scripts": {
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "snyk": true
 }
