@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.8.0
+version: v1.13.5
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:concat-stream:20160901':
@@ -55,3 +55,42 @@ patch:
   'npm:request:20160119':
     - winston-bishop-slack > winston > request:
         patched: '2017-11-22T05:24:12.361Z'
+  SNYK-JS-LODASH-450202:
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - snyk > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - mongoose > async > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - googleapis > async > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - slack-node > requestretry > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - node-linkedin > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - nodemailer-mailgun-transport > mailgun-js > async > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-04T03:58:04.766Z'
