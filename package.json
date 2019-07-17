@@ -33,7 +33,7 @@
     "gridfs-stream": "^1.1.1",
     "grunt": "^1.0.0",
     "grunt-bumpup": "^0.6.2",
-    "grunt-env": "^0.4.4",
+    "grunt-env": "^1.0.0",
     "icg-json-to-xlsx": "^0.2.5",
     "ioredis": "^1.13.0",
     "jimp": "^0.2.21",
