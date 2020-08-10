@@ -39,7 +39,7 @@
     "jimp": "^0.2.21",
     "jquery": "^3.0.0",
     "jsdom": "^8.0.4",
-    "json2csv": "^3.7.3",
+    "json2csv": "^4.0.0",
     "json2xlsx": "^0.1.6",
     "mandrill-api": "^1.0.45",
     "mongodb": "^2.1.11",
